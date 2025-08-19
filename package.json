@@ -2,7 +2,8 @@
   "name": "mern-inventory-assignment",
   "private": true,
   "scripts": {
-    "postinstall": "cd client && npm install && npm run build",
+    
+      "build": "cd client && npm install && npm run build",
     "start": "cd server && npm start"
   }
 }
