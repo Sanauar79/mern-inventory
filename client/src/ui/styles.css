@@ -1,0 +1,19 @@
+*{ box-sizing: border-box; }
+body { font-family: system-ui, Arial, sans-serif; margin:0; background:#0b1220; color:#eef2ff; }
+.container { max-width: 1100px; margin: 24px auto; padding: 0 16px; }
+.header { display:flex; align-items:center; gap:12px; justify-content: space-between; }
+.header h1 { margin:0; font-size: 22px; }
+.controls { display:flex; gap:8px; flex-wrap: wrap; }
+input, select, button { padding:8px 10px; border-radius:10px; border:1px solid #2a3555; background:#11182a; color:#e8eeff; }
+button.primary { background:#3558ff; border-color:#3b5bfd; color:white; }
+button.ghost { background:transparent; border-color:#2a3555; }
+.table { width:100%; border-collapse: collapse; margin-top:16px; }
+.table th, .table td { padding:10px; border-top:1px solid #223; }
+.badge { padding:4px 8px; border-radius:1000px; font-size:12px; }
+.badge.green { background:#123; border:1px solid #0f4; }
+.badge.red { background:#201015; border:1px solid #f55; }
+.row-actions { display:flex; gap:8px; }
+.sidebar { position: fixed; top:0; right:0; width:380px; height:100vh; background:#0e1627; border-left:1px solid #223; padding:16px; transform: translateX(100%); transition: transform .2s; overflow:auto; }
+.sidebar.open { transform: translateX(0); }
+.sidebar h3 { margin-top:0; }
+.kbd{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; background:#11182a; padding:2px 6px; border-radius:6px; border:1px solid #2a3555;}
