@@ -1,10 +1,8 @@
 {
-  "name": "mern-inventory",
+  "name": "mern-inventory-assignment",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "install-client": "cd client && npm install",
-    "install-server": "cd server && npm install",
     "build": "cd client && npm install && npm run build && cd ../server && npm install",
     "start": "cd server && node server.js"
   }
