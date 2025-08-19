@@ -2,8 +2,8 @@
   "name": "mern-inventory-assignment",
   "private": true,
   "scripts": {
-    "install-client": "cd client && npm install",
-    "install-server": "cd server && npm install",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "postinstall": "cd client && npm install && npm run build",
+    "start": "cd server && npm start"
   }
 }
+
